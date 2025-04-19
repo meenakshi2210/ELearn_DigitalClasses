@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "729036409326",
+    "project_id": "digital-class-6b041",
+    "storage_bucket": "digital-class-6b041.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729036409326:android:6fb0d6c887df6cd736e6ff",
+        "android_client_info": {
+          "package_name": "com.digital.classes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729036409326-59blb8ab9l1psq4k4dllmnqkgaieeu2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digital.classes",
+            "certificate_hash": "716d0d2d34231039326a9fcf3440ab13bde9bcf6"
+          }
+        },
+        {
+          "client_id": "729036409326-5ho47hn7ub36jgqs2ogoi8063gkgmq9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digital.classes",
+            "certificate_hash": "48cd75566d1f841b078e18a9ea4d5c9df365d7c0"
+          }
+        },
+        {
+          "client_id": "729036409326-bl00a3e2sqa71uba5rd751o303nnv4tb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digital.classes",
+            "certificate_hash": "b1b6b67853c90a10960ac8795ab8c4b05be9291f"
+          }
+        },
+        {
+          "client_id": "729036409326-gvg5o197s5775j45o2iv5u2tlft77lgt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digital.classes",
+            "certificate_hash": "6debf77d0ff8518cd9b17921570f2cf5a8a9b6e9"
+          }
+        },
+        {
+          "client_id": "729036409326-qha0opirsblnv7blqg6gi418m8rv848s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digital.classes",
+            "certificate_hash": "7f7eb71ef9e9b158a8b5cc9e9bd24ef50e19621b"
+          }
+        },
+        {
+          "client_id": "729036409326-t6e38vcfpavgrjlrqpgsq9a46el006h7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digital.classes",
+            "certificate_hash": "a521a3f2f6dfb2b6f04c39d5529ab06e3e4a74bb"
+          }
+        },
+        {
+          "client_id": "729036409326-h0samvd4h6vog5msap0ip70rl06ppevs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcDoMgwgeioLCNznPgHOqyvbKxD85v2Ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729036409326-h0samvd4h6vog5msap0ip70rl06ppevs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "729036409326-6bn6vf5jcrlmahjhdqph5ia9esvfvjde.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.digital.classes.digitalClasses2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729036409326:android:1f2bff79303e0bdc36e6ff",
+        "android_client_info": {
+          "package_name": "com.digital.classes.digital_classes_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729036409326-5hmbh8nc27gr9rs0jad0um13o33no89t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digital.classes.digital_classes_2",
+            "certificate_hash": "7f7eb71ef9e9b158a8b5cc9e9bd24ef50e19621b"
+          }
+        },
+        {
+          "client_id": "729036409326-h0samvd4h6vog5msap0ip70rl06ppevs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcDoMgwgeioLCNznPgHOqyvbKxD85v2Ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729036409326-h0samvd4h6vog5msap0ip70rl06ppevs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "729036409326-6bn6vf5jcrlmahjhdqph5ia9esvfvjde.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.digital.classes.digitalClasses2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

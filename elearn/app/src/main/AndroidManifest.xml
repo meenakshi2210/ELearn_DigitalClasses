@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/MyApp">
+        <activity
+            android:name="com.digital.classes.activities.NewSpleshActivity"
+            android:theme="@style/MyApp.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.digital.classes.activities.ChaptersActivity"
+            android:label=""
+            android:theme="@style/MyApp.NoActionBar" />
+        <activity
+            android:name="com.digital.classes.activities.BookActivity"
+            android:label="Books"
+            android:parentActivityName=".activities.MainActivity" />
+    <!--    <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/MyApp.NoActionBar">
+         &lt;!&ndash;   <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>&ndash;&gt;
+        </activity>-->
+        <activity
+            android:name="com.digital.classes.activities.MainActivity"
+            android:label="Select Class"
+            android:theme="@style/MyApp.NoActionBar" />
+        <activity
+            android:name="com.digital.classes.activities.AddMoneyActivity"
+            android:label="Add Balance"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name="com.digital.classes.activities.ContentActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/MyApp.NoActionBar" />
+    </application>
+
+</manifest>

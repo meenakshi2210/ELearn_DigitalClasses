@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+
+
+        <item
+            android:id="@+id/services"
+            android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+            android:title="Our Services"/>
+        <!--<item
+            android:id="@+id/refund_rep"
+            android:icon="@drawable/ic_assignment_returned_black_24dp"
+            android:title="Refund &amp; Cancellation policy" />-->
+
+      <!--  <item android:title="Checkout Process"
+            android:id="@+id/checkout"
+            android:icon="@drawable/ic_menu_send"/>-->
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Refer your friend"/>
+
+
+        <item
+            android:id="@+id/change_medium"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:title="Change Medium"/>
+        <item
+            android:id="@+id/terms_cond"
+            android:icon="@drawable/ic_error_outline_black_24dp"
+            android:title="Terms and Condition" />
+        <item
+            android:id="@+id/privacy_policy"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Privacy Policy" />
+
+<!--        <item android:id="@+id/contact"-->
+<!--            android:icon="@drawable/ic_perm_phone_msg_black_24dp"-->
+<!--            android:title="Contact us"/>-->
+
+        <item android:id="@+id/about"
+            android:icon="@drawable/ic_assignment_returned_black_24dp"
+            android:title="About us"/>
+        <item
+            android:id="@+id/menu_my_data_delete"
+            android:icon="@drawable/baseline_deletee"
+            android:title="Delete Data" />
+        <item
+            android:id="@+id/menu_my_account_delete"
+            android:icon="@drawable/baseline_delete"
+            android:title="Delete Account" />
+
+        <item android:id="@+id/exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Exit"/>
+    </group>
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_menu_share"-->
+<!--                android:title="@string/menu_share" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_send"-->
+<!--                android:icon="@drawable/ic_menu_send"-->
+<!--                android:title="@string/menu_send" />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

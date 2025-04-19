@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorAccentDark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_animation_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/splash"
+        app:lottie_colorFilter="@color/gray_8ba6c1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/dimen_20dp"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="@+id/lottie_animation_view"
+        app:layout_constraintEnd_toEndOf="@+id/lottie_animation_view"
+        app:layout_constraintTop_toTopOf="@+id/lottie_animation_view"
+        app:layout_constraintBottom_toBottomOf="@+id/lottie_animation_view" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lottie_animation_view"
+        android:text="Digital\nClasses"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:visibility="visible"
+        android:letterSpacing="0.1"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottie_animation_view"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

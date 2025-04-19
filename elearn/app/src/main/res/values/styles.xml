@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyApp" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:actionBarStyle">@style/MyApp.ActionBarStyle</item>
+        <item name="android:fontFamily">@font/roboto_condensed_regular</item>
+    </style>
+    <style name="MyApp.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:actionBarStyle">@style/MyApp.ActionBarStyle</item>
+        <item name="android:fontFamily">@font/roboto_condensed_regular</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyApp.ActionBarStyle" parent="MyApp">
+        <item name="android:titleTextStyle">@style/MyApp.ActionBarStyle.TitleTextStyle</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyApp.ActionBarStyle.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
